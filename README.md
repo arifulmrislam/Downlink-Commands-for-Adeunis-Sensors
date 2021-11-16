@@ -34,6 +34,8 @@ To set reporting interval of Adeunis Modbus LoRaWAN at 1minute, our downlink com
 Here, bytes0(0X41) this frame allows us to change the values of requested resisters, bytes1 (0X01) register 301, bytes 2 and bytes 3 (0X0006) for the sample period.
 If we convert this payload from HEX to base64, we’ll get ”QQEABg==” value for enqueued by ChirpStack.
 
+<img src= "screenshot.png" width=800>
+
 
 ## Authors
 
